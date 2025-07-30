@@ -17,10 +17,15 @@ begin
     ); 
     process 
     begin
-        for i in 0 to 7 loop 
+        Clk <= '0'; 
+        Clear <= '0'; 
+        for i in 0 to 15 loop 
             Clk <= not Clk; 
             wait for 10 ns; 
         end loop; 
-        wait;
+        Clear <= '1'; 
+        Clk <= '1'; 
+       wait for 20 ns; 
+        wait; 
     end process; 
 end architecture; 
