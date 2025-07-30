@@ -5,15 +5,14 @@ use IEEE.numeric_std.all;
 entity tb_adder3 is 
 end entity; 
 
-
+-- Todo : Remove Output for tb_adder3 and adder3
 architecture RTL of tb_adder3 is 
-    signal Clk, Clear, Output : std_logic := '0'; 
+    signal Clk, Clear : std_logic := '0'; 
 begin 
     uut : entity work.adder3 
     Port map(
         Clk => Clk, 
-        Clear => Clear, 
-        Output => Output
+        Clear => Clear
     ); 
     process 
     begin

@@ -14,7 +14,7 @@ architecture RTL of d_flop is
 begin
     process(Clk)
     begin
-        if rising_edge(clk) then
+        if rising_edge(Clk) then
             if (D = '1') then
                 Output <= '1';
             else
