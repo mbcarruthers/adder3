@@ -2,7 +2,7 @@
 
 Created from the diagram on Page 77 of Blaine Readlers , 'Digital Design from Scratch Volume 1' 
 
- - 3 Bit addition Driven by a clock 
+ - Just a 3 bit addition, using only combinational logic, driven by a clock, with a testbench viewable from Surfer.
 
 !['image of adder3'](./adder3.png)
 
