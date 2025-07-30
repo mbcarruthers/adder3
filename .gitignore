@@ -1,0 +1,7 @@
+out/
+tb_adder3 
+ e~tb_adder3 .o
+.library_mapping.xml
+.settings/
+.project
+*.o
