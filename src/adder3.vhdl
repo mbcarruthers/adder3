@@ -31,8 +31,7 @@ use IEEE.std_logic_1164.all;
 entity adder3 is
     Port(
         Clk    : in  std_logic;
-        Clear  : in  std_logic;
-        Output : out std_logic
+        Clear  : in  std_logic
     );
 end entity;
 
@@ -57,5 +56,4 @@ begin
             Clk    => Clk,
             Output => C
         );
-    Output <= C;                        -- Simple output of C to see the results from addr3
 end architecture;
