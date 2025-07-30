@@ -5,7 +5,7 @@ use IEEE.numeric_std.all;
 entity tb_adder3 is 
 end entity; 
 
--- Todo : Remove Output for tb_adder3 and adder3
+
 architecture RTL of tb_adder3 is 
     signal Clk, Clear : std_logic := '0'; 
 begin 
